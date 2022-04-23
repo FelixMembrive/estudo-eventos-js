@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+ul {
+    text-decoration: none;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    width: 5vw;
+    height: 5vh;
+    box-sizing: border-box;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+#vermelho {
+    background-color: red;
+}
+
+#azul {
+    background-color: blue;
+}
+
+#verde {
+    background-color: green;
+}
+
+#amarelo {
+    background-color: yellow;
+}
+
+#ciano {
+    background-color: cyan;
+}
+
+#roxo {
+    background-color: purple;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    width: 50vw;
+    height: 50vh;
+}
+
+#quadrante1 {
+    background-color: purple;
+}
+
+#quadrante2 {
+    background-color: blue;
+}
+
+#quadrante3 {
+    background-color: yellow;
+}
+
+#quadrante4 {
+    background-color: green;
+}
