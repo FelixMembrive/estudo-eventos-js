@@ -12,17 +12,18 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li id="vermelho"></li>
-                <li id="azul"></li>
-                <li id="verde"></li>
-                <li id="amarelo"></li>
-                <li id="ciano"></li>
-                <li id="roxo"></li>
+            <ul id="paleta-de-cores">
+                <li class=paletaCores style-color="red" id="vermelho"></li>
+                <li class=paletaCores style-color="blue" id="azul"></li>
+                <li class=paletaCores style-color="green" id="verde"></li>
+                <li class=paletaCores style-color="yellow" id="amarelo"></li>
+                <li class=paletaCores style-color="cyan" id="ciano"></li>
+                <li class=paletaCores style-color="purple" id="roxo"></li>
             </ul>
         </nav>
+        <span id="cor-atual" name="" display="none"></span>
     </header>
-    <section onclick="pintarRegiao()">
+    <section id="quadrantes">
         <div id="quadrante1"></div>
         <div id="quadrante2"></div>
         <div id="quadrante3"></div>
